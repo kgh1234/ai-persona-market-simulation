@@ -1,0 +1,149 @@
+{
+  "run_id": "20261104_023549_56a74f",
+  "run_file_sha256": "d6be528f21a17b451cf148036502386c4d9718fc2c302a6ebd93250a1cf998bd",
+  "updated_at": "2026-11-04T02:53:01",
+  "meaning": "'승인'은 AI가 생성한 문장이 입력한 제품 정보와 맞는지 사람이 확인했다는 뜻입니다. 실제 소비자의 의견이나 검증된 소비자 인사이트가 아닙니다.",
+  "counts": {
+    "검토 전": 0,
+    "승인": 9,
+    "제외": 8
+  },
+  "items": {
+    "0|first_impression|0": {
+      "decision": "승인",
+      "text": "강한 청량감이라는 특징이 인상적이다.",
+      "persona_label": "가격 민감형",
+      "field": "first_impression",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "0|positive_points|0": {
+      "decision": "제외",
+      "text": "무설탕인 점이 마음에 든다. 건강에 좋을 것 같아.",
+      "persona_label": "가격 민감형",
+      "field": "positive_points",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "0|positive_points|1": {
+      "decision": "제외",
+      "text": "복숭아 향이 좋아 복숭아맛 음료를 좋아하는 사람들에게 추천하고 싶다.",
+      "persona_label": "가격 민감형",
+      "field": "positive_points",
+      "auto_label": "의미·형식 경고",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "0|concerns|0": {
+      "decision": "승인",
+      "text": "100mL당 가격이 조금 비싸 보여서, 용량 대비 가성비가 좋을지는 모르겠다.",
+      "persona_label": "가격 민감형",
+      "field": "concerns",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "0|concerns|1": {
+      "decision": "제외",
+      "text": "복숭아 향이 강한데, 개인적으로는 복숭아 맛이 강한 음료를 선호하지 않는다.",
+      "persona_label": "가격 민감형",
+      "field": "concerns",
+      "auto_label": "왜곡 의심",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "1|first_impression|0": {
+      "decision": "승인",
+      "text": "무설탕이고 복숭아 향이 강한 청량감을 주는 탄산음료라 흥미로웠습니다.",
+      "persona_label": "건강 지향형",
+      "field": "first_impression",
+      "auto_label": "왜곡 의심",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "1|positive_points|0": {
+      "decision": "승인",
+      "text": "무설탕",
+      "persona_label": "건강 지향형",
+      "field": "positive_points",
+      "auto_label": "설명 부족 (입력과 일치)",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "1|positive_points|1": {
+      "decision": "승인",
+      "text": "복숭아 향",
+      "persona_label": "건강 지향형",
+      "field": "positive_points",
+      "auto_label": "설명 부족 (입력과 일치)",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "1|positive_points|2": {
+      "decision": "승인",
+      "text": "강한 청량감",
+      "persona_label": "건강 지향형",
+      "field": "positive_points",
+      "auto_label": "설명 부족 (입력과 일치)",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "1|concerns|0": {
+      "decision": "승인",
+      "text": "맛이 어떨지 궁금해요",
+      "persona_label": "건강 지향형",
+      "field": "concerns",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "1|concerns|1": {
+      "decision": "제외",
+      "text": "복숭아 향이 강한데 복숭아 맛이 강하지 않을까 걱정돼요",
+      "persona_label": "건강 지향형",
+      "field": "concerns",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "2|first_impression|0": {
+      "decision": "제외",
+      "text": "복숭아 향이 강한 탄산음료라 복숭아 맛이 궁금해 보이네요.",
+      "persona_label": "맛 중심형",
+      "field": "first_impression",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "2|positive_points|0": {
+      "decision": "제외",
+      "text": "복숭아 향이 강하다",
+      "persona_label": "맛 중심형",
+      "field": "positive_points",
+      "auto_label": "왜곡 의심",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "2|positive_points|1": {
+      "decision": "승인",
+      "text": "청량감이 강하다",
+      "persona_label": "맛 중심형",
+      "field": "positive_points",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "2|positive_points|2": {
+      "decision": "제외",
+      "text": "당이 없으니 건강에 좋을 것 같아",
+      "persona_label": "맛 중심형",
+      "field": "positive_points",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "2|concerns|0": {
+      "decision": "승인",
+      "text": "맛이 복숭아 냄새랑 잘 어울리나",
+      "persona_label": "맛 중심형",
+      "field": "concerns",
+      "auto_label": "경고 없음",
+      "reviewed_at": "2026-11-04T02:53:01"
+    },
+    "2|concerns|1": {
+      "decision": "제외",
+      "text": "비싸다",
+      "persona_label": "맛 중심형",
+      "field": "concerns",
+      "auto_label": "설명 부족",
+      "reviewed_at": "2026-11-04T02:53:01"
+    }
+  }
+}

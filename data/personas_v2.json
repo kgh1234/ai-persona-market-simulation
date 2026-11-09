@@ -1,0 +1,27 @@
+{
+  "_note": "가상으로 설계한 소비자 조건이며 실제 소비자 조사로 검증된 세그먼트가 아님. v1(data/personas.json)의 인구통계는 유지하고, 구매 기준을 우선순위 3개로 구조화함. 가격에 대한 수치 기준(예산 등)은 근거가 없어 넣지 않음.",
+  "version": "v2",
+  "personas": [
+    {
+      "persona_id": "P_PRICE",
+      "label": "가격 민감형",
+      "age": 27, "gender": "남성", "occupation": "사회초년생 회사원", "residence": "경기도",
+      "criteria_ranked": ["가격", "용량 대비 가격(가성비)", "맛"],
+      "habits": "편의점에서 음료를 살 때 가격표와 1+1, 2+1 같은 행사 여부를 먼저 확인한다."
+    },
+    {
+      "persona_id": "P_HEALTH",
+      "label": "건강 지향형",
+      "age": 34, "gender": "여성", "occupation": "사무직 회사원", "residence": "서울",
+      "criteria_ranked": ["당류 함량", "원재료와 성분", "맛"],
+      "habits": "음료를 살 때 제품 뒷면의 영양정보와 원재료를 확인한다."
+    },
+    {
+      "persona_id": "P_TASTE",
+      "label": "맛 중심형",
+      "age": 22, "gender": "여성", "occupation": "대학생", "residence": "부산",
+      "criteria_ranked": ["맛", "청량감", "향"],
+      "habits": "탄산음료를 즐겨 마시며, 새로운 맛이 나오면 한 번씩 사서 마셔 본다."
+    }
+  ]
+}

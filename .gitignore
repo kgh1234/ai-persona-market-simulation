@@ -1,0 +1,51 @@
+# ── 실행 중 생성되는 파일 (평가 기록, 검토 결과, 사용자 페르소나, 데이터 캐시) ──
+outputs/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── 가상환경 ──
+.venv/
+venv/
+env/
+.conda/
+conda-env/
+
+# ── 모델 가중치·데이터셋 원본 (저장소에 포함하지 않음) ──
+models/
+*.gguf
+*.safetensors
+*.bin
+*.parquet
+hf_home/
+
+# ── 로그·프로세스 파일 ──
+logs/
+run/
+*.log
+*.pid
+
+# ── 인증 정보·로컬 설정 ──
+.env
+.env.*
+*.pem
+*.key
+.streamlit/secrets.toml
+config.ini
+
+# ── 외부 저장소 사본 (참고만 하고 포함하지 않음) ──
+TinyTroupe/
+experiments/nemotron_personas/ext/
+experiments/nemotron_personas/cache/
+
+# ── OS·편집기 ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

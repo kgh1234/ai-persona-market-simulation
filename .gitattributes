@@ -1,0 +1,3 @@
+# 샘플 실행 기록은 원본과 바이트 단위로 같아야 합니다 (검토 기록에 실행 기록 파일의 sha256이 저장되어 있음).
+# Git의 줄바꿈 변환(core.autocrlf, eol)을 적용하지 않습니다.
+examples/sample_outputs/** -text

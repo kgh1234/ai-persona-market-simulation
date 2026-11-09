@@ -1,0 +1,40 @@
+{
+  "_note": "입력 예시용 가상 제품 콘셉트입니다. 실제 출시 제품, 실제 가격·영양 정보, 시장 데이터가 아닙니다. 앱은 이 파일을 자동으로 읽지 않으며, '새 콘셉트 평가' 또는 '목표 기반 A/B 비교' 탭의 입력란에 값을 옮겨 적어 사용합니다. 필드는 src/qualitative_feedback.py 의 ProductConcept 와 같습니다 (sugar_g 를 null 로 두면 '당류 정보 미기재').",
+  "concepts": [
+    {
+      "example_id": "zero_peach_soda",
+      "name": "제로 복숭아 탄산음료",
+      "category": "탄산음료",
+      "volume_ml": 350,
+      "price_krw": 1800,
+      "sugar_g": 0.0,
+      "features": ["복숭아 향", "강한 청량감"],
+      "description": "복숭아향을 특징으로 하는 당류 0g의 탄산음료 콘셉트. 실제 맛과 향의 강도는 아직 평가되지 않음."
+    },
+    {
+      "example_id": "zero_lemon_soda",
+      "name": "제로 레몬 탄산음료",
+      "category": "탄산음료",
+      "volume_ml": 350,
+      "price_krw": 1800,
+      "sugar_g": 0.0,
+      "features": ["레몬 향", "강한 청량감"],
+      "description": ""
+    },
+    {
+      "example_id": "low_sugar_green_tea",
+      "name": "저당 녹차 음료",
+      "category": "차 음료",
+      "volume_ml": 500,
+      "price_krw": 2200,
+      "sugar_g": 5.0,
+      "features": ["녹차 추출물", "식이섬유 함유", "은은한 단맛"],
+      "description": "식사와 함께 마시기 좋은 가벼운 녹차 음료"
+    }
+  ],
+  "ab_example": {
+    "_note": "'목표 기반 A/B 비교' 탭의 기본 입력값과 같은 조합입니다.",
+    "product_a": "zero_peach_soda",
+    "product_b": "zero_lemon_soda"
+  }
+}

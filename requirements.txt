@@ -1,0 +1,8 @@
+# Python 3.10 이상 (코드에서 `X | None` 형식의 타입 표기를 사용)
+# 아래 버전은 개발 환경(Python 3.10.22)에서 실제로 실행·검증한 조합입니다.
+streamlit==1.65.0        # 웹 UI
+pandas==2.3.3            # 표 처리, CSV
+pydantic==2.14.2         # 입력·LLM 출력 스키마 검증
+requests==2.34.2         # Ollama HTTP API 호출
+pyarrow==25.0.1          # NVIDIA 합성 페르소나 parquet 부분 읽기
+huggingface_hub==2.4.0   # Hugging Face 데이터셋 원격 파일 접근 (fsspec 포함)
