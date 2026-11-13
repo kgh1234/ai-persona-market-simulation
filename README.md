@@ -257,53 +257,28 @@ flowchart LR
 
 ---
 
+
 ## Demo & Screenshots
 
-The sections below describe the implemented Streamlit interface. **Screenshots have not yet been added.** The included sample run can be loaded to inspect simulated responses, review decisions, and the planning report ([view sample results](#viewing-sample-results-without-ollama)).
+### 1. Product Concept & Persona Selection
+![Product Concept and Persona Selection](docs/images/02_input_persona_selection.png)
 
-<!--
-  Add screenshots with the filenames below under docs/images/, then remove the surrounding HTML comment markers from each image line. Until then, images remain hidden to avoid broken links.
--->
+### 2. AI-Generated Consumer Responses
+![AI Consumer Responses](docs/images/03_ai_consumer_responses.png)
 
-**Screen 2. Product Input and Persona Selection**
+### 3. Automated Quality Checks
+![Automated Quality Checks](docs/images/04_automated_quality_checks.png)
 
-Enter the product name, size, retail price, sugar content, and product features. Select from the predefined types and any custom or imported personas.
+### 4. Product Planning Report
+![Product Planning Report](docs/images/05_planning_report.png)
 
-<!-- ![Product input and persona selection](docs/images/02_input_persona_selection.png) -->
-
-**Screen 3. AI-Generated Consumer Responses**
-
-Review independently generated first impressions, positives, concerns, and purchase criteria through summary tables and detailed cards. Responses are labeled in the app as `AI 생성 가상 의견 · 실측 미검증` (AI-generated simulated feedback; not validated against real observations).
-
-<!-- ![AI-generated consumer responses](docs/images/03_ai_consumer_responses.png) -->
-
-**Screen 4. Automated Quality Checks and Statement-Level Review**
-
-Inspect response statuses, reasons for review, and statement-level flags. Approve or exclude each statement manually.
-
-<!-- ![Automated checks and statement review](docs/images/04_quality_check_sentence_review.png) -->
-
-**Screen 5. Product-Planning Report**
-
-View positive factors, barriers, shared issues, unverified hypotheses, and questions for follow-up research, using approved statements only.
-
-<!-- ![Product-planning report](docs/images/05_planning_report.png) -->
-
-**Screen 6. Comparison Across Persona Types**
-
-Compare positives, concerns, and differences between hypothetical persona responses without assigning product rankings or winners.
-
-<!-- ![Persona response comparison](docs/images/06_persona_response_comparison.png) -->
-
----
+### 5. NVIDIA Synthetic Persona Selection
+![NVIDIA Persona Selection](docs/images/07_nemotron_persona_selection.png)
 
 ## Validation Workflow
 
 Generated statements are **not** used directly as planning conclusions. Only statements approved by a human reviewer enter the final report.
 
-```text
-LLM generation → Schema validation → Automated checks → Human approval/exclusion → Report (approved statements only)
-```
 
 ### 1. Generation Constraints
 
